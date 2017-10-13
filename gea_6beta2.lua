@@ -81,7 +81,7 @@ if (not GEA) then
   GEA.debug = true          -- mode d'affiche debug on/off
   GEA.secureAction = true   -- utilise pcall() ou pas
   GEA.source = fibaro:getSourceTrigger()
-  GEA.language = "en"
+  GEA.language = "fr"
   
   GEA.portables = {} 
   GEA.moduleNames = {}
